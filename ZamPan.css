@@ -1,0 +1,48 @@
+@charset 'utf-8';
+
+body {
+  background: #F8F8F8;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  background: #9f9;
+  padding: 15px;
+}
+
+h1, h2 {
+  line-height: 1em;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 { font-size: 36px; }
+
+h2 { font-size: 12px; }
+
+#content { }
+
+#game {
+  width: 800px;
+  height: 600px;
+}
+
+#canvasHolder {
+  float: left;
+  width: 800px;
+}
+
+#consoleHolder {
+  float: left;
+  width: 50px;
+}
+
+#footer {
+  clear: both;
+}
